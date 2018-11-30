@@ -28,3 +28,5 @@ app.listen(3000, () => {
 });
 
 //POST HTTP - send resource as body, json which is text property
+
+module.exports = {app};
