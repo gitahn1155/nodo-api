@@ -1,4 +1,4 @@
-//db is here*
+//DB HERE
 var mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
