@@ -63,7 +63,7 @@ app.delete('/todos/:id', (req, res) => {
             return res.status(404).send();
         }   
         
-        res.send(todo);
+        res.send({todo});
         //success
             //if no doc, send 404
             //if doc send back 200
