@@ -15,7 +15,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
     //deleteOne - delete only the first one
     //db.collection('Todos').deleteOne({text: 'Eat Lunch'}).then((result) => {
     //    console.log(result);
-    ////findOneAndDelete - delete specific first one
+    ////findOneAndDelete - delete specific fst one
          db.collection('Todos').findOneAndDelete({completed: false}).then((result) => {
         console.log(result); });
     //db.close();
